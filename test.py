@@ -1,7 +1,7 @@
 import os
 
 # 设置环境变量
-os.environ["DASHSCOPE_API_KEY"] = "sk-644f7f7e862140cd9c75b968b4d3e7ba"
+os.environ["DASHSCOPE_API_KEY"] = "***YOUR_API***"
 
 # 假设你已经安装了必要的库
 from llama_index.llms.dashscope import DashScope, DashScopeGenerationModels
